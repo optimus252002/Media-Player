@@ -1,0 +1,42 @@
+.side-bar {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 100;
+}
+li {
+    margin: 0 0 20px 0;
+}
+
+i {
+    padding: 0px 10px;
+    background: transparent;
+    color: black;
+}
+
+a {
+    text-decoration: solid;
+    display: block;
+}
+
+.active {
+    background: rgb(245, 179, 237);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.active:hover {
+    background: rgb(226, 110, 212);
+}
+
+.active i {
+    background: transparent;
+    color: black;
+}
+
+.link-dark {
+    background-color: transparent;
+    color: rgb(62 62 62);
+    padding: 10px 20px;
+    border-radius: 8px;
+}

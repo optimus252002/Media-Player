@@ -1,0 +1,56 @@
+.form-1 {
+  padding: 30px;
+}
+
+.control-form {
+  margin-top: 10px;
+  display: block;
+  border: 2px solid rgb(213 177 144 / 98%);
+  border-radius: 8px;
+  width: 80%;
+  height: 25mm;
+  position: relative;
+}
+
+.control-form label {
+  display: block;
+  margin: 15px 4%;
+}
+
+.control-form input {
+  position: relative;
+  border: 1px solid rgb(213 177 144 / 98%);
+  margin: 1px 4%;
+  height: 8mm;
+  width: 90%; /* Set the width to fill the available space */
+  border-radius: 8px;
+  padding: 1px 5px;
+  font-size: 14px; /* Adjust the font size as desired */
+}
+
+.form-1 input[type="submit"] {
+  background: rgba(69, 127, 193, 0.98);
+  color: black;
+  font-weight: 600;
+  width: 50mm;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 9px;
+  height: 8mm;
+  cursor: pointer;
+}
+
+.form-1 input[type="submit"]:hover {
+  background-color: rgba(143, 219, 244, 0.98);
+}
+
+/* table */
+
+.message {
+  background: rgba(213 177 144 / 98%);
+  border: 1px solid rgba(213 177 144 / 98%);
+  text-align: center;
+  border-radius: 6px;
+  color: black;
+  width: 80%;
+}

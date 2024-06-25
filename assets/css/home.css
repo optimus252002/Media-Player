@@ -1,0 +1,136 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(255 255 255);
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    margin: 20px;
+}
+
+body {
+    padding-top: 5px;
+}
+
+.part-1 {
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 20%;
+    display: block;
+}
+
+.part-2 {
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    /* Styles for screens larger than 768px width */
+    .part-1 {
+        width: 20%;
+        position: fixed;
+    }
+    .part-2 {
+        /* float: right;
+        width: 78%; */
+    }
+}
+
+.part-3 {
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(204 181 181);
+    padding: 20px;
+    height: 50px;
+    text-align: center;
+}
+
+.home_index { font-size: 20px;
+    display: inline-block;
+    margin: 12px 0;}
+
+.b1 {
+    background: transparent;
+}
+
+.b2 {
+    background: transparent;
+}
+
+.curr-duration {
+    position: fixed;
+    left: 0;
+    margin-left: 30px;
+    bottom: 3%;
+    background: transparent;
+}
+
+.duration {
+    position: fixed;
+    right: 0;
+    bottom: 3%;
+    margin-right: 30px;
+    background: transparent;
+}
+
+.range {
+    position: fixed;
+    left: 50%;
+    bottom: 2%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+}
+
+input[type="range"] {
+    width: 300mm;
+    height: 5px;
+    cursor: pointer;
+    accent-color: rgb(213 177 144 / 98%);
+    /* forced-color-adjust: blue;
+  scrollbar-track-color: rgb(182, 89, 89); */
+}
+
+.m-recents {
+    display: inline-flex;
+}
+
+.m-part {
+    margin-top: 20px;
+    width: 90mm;
+    height: 90mm;
+}
+
+.m-part i {
+    text-align: center;
+    font-size: 250px;
+    color: black;
+    border-radius: 15px;
+    background: linear-gradient(to right, rgb(213 138 138) 0%, rgb(78 114 103) 100%);
+  
+}
+
+.v-part {
+    margin-top: 20px;
+    width: 90mm;
+    height: 90mm;
+}
+
+.v-part i {
+    text-align: center;
+    font-size: 250px;
+    color: black;
+    border-radius: 15px;
+    background: linear-gradient(to right, rgb(213 138 138) 0%, rgb(78 114 103) 100%);
+    
+}
